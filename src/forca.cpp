@@ -75,7 +75,7 @@ void jogoForca::imprimeForca(int erros)
 
 std::vector<std::string> lerArquivo()
 {
-    std::ifstream arquivo("frutas.txt");
+    std::ifstream arquivo("dados/frutas.txt");
     std::vector<std::string> linhas;
     std::string palavra;
     if(arquivo.is_open())
